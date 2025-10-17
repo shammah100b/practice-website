@@ -34,6 +34,10 @@
     font-weight: bold;
     color: black;
 }
+.footer-one{
+    margin-left: 50px;
+    color: slateblue;
+}
 /*styling of table*/
 .table-data{
     margin: 50px;
