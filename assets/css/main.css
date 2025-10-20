@@ -75,3 +75,168 @@
 .footer{
     margin-left: 50px;
 }
+/*end of table styling*/
+body{
+    height: 700vh;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    font-family: sans-serif;
+    background-color: coral;
+    height: 80vh;
+    width: 600px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: 15px;
+}
+.login-form h2{
+    text-align: center;
+    color: #e6f2e9;
+}
+.login-form label{
+    display: block;
+    margin-left: 5%;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+.login-form input[type="text"]{
+    margin-left: 5%;
+    padding: 5px 55px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: 5px;
+}
+/*end of form styling*/
+
+
+
+/*table styling*/
+.table-set{
+    border-collapse: collapse;
+    min-width: 400px;
+    margin: 50px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-family: sans-serif;
+
+}
+.table-set thead{
+    background-color: slateblue;
+    color: white;
+}
+.table-set th,td{
+   padding: 15px 25px;
+    text-align: left;
+}
+.table-set tbody tr{
+    border-bottom: 1px solid purple;
+}
+.table-set tbody tr:nth-of-type(even){
+    background-color: #f2edee;
+    color: #635254;
+}
+.table-set tbody tr.last-row{
+    border-bottom: 2px solid black;
+}
+.table-set tbody tr.active{
+    color: slateblue;
+    font-weight: bold;
+}
+/*end of table styling*/
+
+
+
+.student-data-form{
+    background-color: coral;
+    width: 400px;
+    margin: 5% 30%;
+    padding: 15px 30px;
+    height: 45vh;
+    border-radius: 10px;
+}
+.student-data-form h3{
+    text-align: center;
+}
+.student-data-form label{
+    display: block;
+    margin-left: 32%;
+    color: #535454;
+    font-weight: bold;
+}
+.student-data-form input[type="text"]{
+    margin-left: 32%;
+    border: 2px solid #2d2e2d;
+    border-radius: 5px;
+}
+
+
+select{
+    height: 25vh;
+    width: 110px;
+    margin: 10px;
+    padding: 10px 5px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+select option:hover{
+    background-color: blue;
+}
+label{
+    color: #535454;
+    font-weight: bold;
+}
+.gender-one{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+input[type="radio"]{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label[for="male"]{
+    margin-left: 5px;
+}
+label[for="female"]{
+    margin-left: 5px;
+}
+.class-two{
+    display: flex;
+    justify-content: flex-start;
+}
+.class-two label{
+    color: blue;
+    font-weight: bold;
+}
+.class-heading{
+    margin-bottom: 5px;
+}
+.class-two input[type="radio"]{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
